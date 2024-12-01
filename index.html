@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard </title>
+</head>
+<body>
+
+    <div class="dashboard-container" id="home">
+        <header class="header-wrapper">
+          <h1 class="dashboard-title">Royal Dashboard</h1>
+          <form class="search-wrapper" role="search">
+            <label for="searchInput" class="visually-hidden">Search Kelas, Dokumen, Aktivitas dll...</label>
+            <input type="search" id="searchInput" class="search-input" placeholder="Cari Kelas, Dokumen, Aktivitas dll..." aria-label="Search classes, documents, activities">
+          </form>
+        </header>
+      
+        <main class="main-content">
+          <nav class="sidebar" role="navigation" aria-label="Main navigation">
+            <a href="#home" class="nav-item nav-item-active">Home</a>
+            <a href="#mahasiswa" class="nav-item">Mahasiswa</a>
+            <a href="#kelas" class="nav-item">Kelas</a>
+            <a href="#statistik" class="nav-item">Statistik</a>
+            <a href="#aktivitas" class="nav-item">Aktivitas</a>
+            <a href="#dokumen" class="nav-item">Dokumen</a>
+            <a href="#pengaturan" class="nav-item nav-item-settings">Pengaturan</a>
+            <a href="#keluar" class="nav-item nav-item-logout">Keluar</a>
+          </nav>
+      
+          <div class="content-wrapper" id="mahasiswa">
+            <section class="welcome-banner">
+              <div class="welcome-text">
+                <h2 class="welcome-heading">Selamat Datang, Nama Saya Siti Maisaroh <br>Kelas SI-3J</h2>
+                <p class="welcome-description">
+                    <span class="progress">
+                        Kamu memiliki Statistik tingkatan mahasiswa, 4 Progres Kelas, 4 Aktifitas Selanjutnya dan 3 Lampiran 
+                    </span>
+                    <br>
+                    <span>
+                        Dokumen yang ada pada aplikasi ini.
+                    </span>
+                </p> 
+              </div>
+              <img src="gambar/aku3.jpg" alt="Profile photo of Siti Maisaroh" class="profile-image">
+            </section>
+            <div class="stats-grid" id="statistik">
+              <section class="stats-chart">
+                <h3 class="stats-title">Statistik Mahasiswa</h3>
+                <img src="gambar/Barchrt.svg" alt="Student statistics chart" class="stats-image">
+              </section>
+      
+              <section class="progress-section ">
+                <h3 class="progress-title" id="kelas">Progres Kelas</h3>
+                <div class="progress-list">
+                  <div class="progress-item">
+                    <div class="progress-name">Matakuliah A</div>
+                    <div class="progress-detail">79 Pendaftar</div>
+                  </div>
+                  <div class="progress-item">
+                    <div class="progress-name">Matakuliah B</div>
+                    <div class="progress-detail">70 Pendaftar</div>
+                  </div>
+                  <div class="progress-item">
+                    <div class="progress-name">Matakuliah C</div>
+                    <div class="progress-detail">80 Pendaftar</div>
+                  </div>
+                  <div class="progress-item">
+                    <div class="progress-name">Matakuliah D</div>
+                    <div class="progress-detail">88 Pendaftar</div>
+                  </div>
+                </div>
+              </section>
+      
+              <section class="progress-section">
+                <h3 class="progress-title" id="aktivitas">Aktifitas Selanjutnya</h3>
+                <div class="progress-list">
+                  <div class="progress-item">
+                    <div class="progress-name">Perkuliahan Daring 1</div>
+                    <div class="progress-detail">Senin, 15 Januari 2025</div>
+                  </div>
+                  <div class="progress-item">
+                    <div class="progress-name">Perkuliahan Daring 2</div>
+                    <div class="progress-detail">Selasa, 16 Januari 2025</div>
+                  </div>
+                  <div class="progress-item">
+                    <div class="progress-name">Perkuliahan Daring 3</div>
+                    <div class="progress-detail">Rabu, 17 Januari 2025</div>
+                  </div>
+                  <div class="progress-item">
+                    <div class="progress-name">Perkuliahan Daring 4</div>
+                    <div class="progress-detail">Kamis, 18 Januari 2025</div>
+                  </div>
+                </div>
+              </section>
+            </div>
+      
+            <section class="document-section" id="dokumen">
+              <h3 class="document-title">Aktifitas Selanjutnya</h3>
+              <div class="document-list">
+                <div class="document-item">
+                  Lampiran Dokumen 1 - Matakuliah A | Tugas Bersama Perkuliahan Daring | <a href="#" class="">Lihat Dokumen</a>
+                </div>
+                <div class="document-item">
+                  Lampiran Dokumen 2 - Matakuliah B | Tugas Bersama Perkuliahan Daring | <a href="#" class="">Lihat Dokumen</a>
+                </div>
+                <div class="document-item">
+                  Lampiran Dokumen 3 - Matakuliah C | Tugas Bersama Perkuliahan Daring | <a href="#" class="">Lihat Dokumen</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+    
+
+</body></html>
